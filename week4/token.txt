@@ -1,0 +1,29 @@
+what is token?
+there is already a tokem program in solana blockchain to create a token on top of it we use token program to create a account which has info about address and lamports it's also called a mint account 
+
+token mint id there for diffrent diffrent currecny there can n users in each.
+on token making solana program in executable
+
+we alreadt have a token program or smart contract we create a mint acccount on top of it
+we can create token using command line interface cli spl-token create token
+
+
+spl-token create token --decimals 4
+this confines decimals to 4 spaces only 
+
+spl-token create token --decimals 0 this is non fundable token we should sent atleast 1 sol
+with every token mint wee have a assicated token account 
+whenever min balcne is below that min balance we cloased this account
+
+
+
+first create a token mint 
+
+spl-token create-token  //this is command to create token mint
+spl-token create account CdLAJcuBvbQXF4pULgRWJyncJn6w3DineVw5dGR8E1CK
+solana-token mint CdLAJcuBvbQXF4pULgRWJyncJn6w3DineVw5dGR8E1CK 100 
+
+
+
+
+rust---->RPC----->blockchain

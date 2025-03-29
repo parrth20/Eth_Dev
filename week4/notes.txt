@@ -1,0 +1,32 @@
+installing solana cli locally
+ruunning some commands and running genrating pub private key pair in solana which can be accesed by any walllet avaible online 
+
+solana address this also shows solana address
+solana config get 
+
+RPC url ,testnet,devnet ,mainnet diffrence and meaning
+RPC url is used to interact with blockchain sent req to blockchain rpc urls we can ask blockchain what is current balcance of user using rpc url
+
+
+Mainnet 
+primary solana network this is where real solana is stored 
+
+
+devnet 
+this is test blockchain this is dev envoirment this also have a blockchian we also have a rpc url which hits a small blockchian devnet server 
+we can can add sol to our account by devnet mode by airdrop
+
+
+testnet 
+local solana rpc avaible on my mac machine we can trigger it by 
+solana-test-validator
+basically it genrates local rpc link for blockchain for testing purposes
+aim is to we can test out our smart contract locally then on our devnet or mainnet
+
+smart contracts are backend applications deployed on blockchain
+
+
+in solana world whenever a new user signs in create a new account for them 
+that contains data and lamports(sol)
+where as program is stored in a single account 
+where as data has stored in saperate accounts 
