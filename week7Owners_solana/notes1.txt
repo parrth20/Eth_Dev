@@ -1,0 +1,45 @@
+owners vs authorites
+concept owners
+PDAs
+
+
+Comncept of owners
+
+types of account on solana blockchain
+one is which you are sent money(sol) to your friend normal accoutns
+smart contracts program accounts which stores some solana and data(code in smart contract)
+
+
+data account - program which stores some data 
+
+every account has program owner assosiated to it ,only the account can modify data and deduct kamports balance
+if we put put smart contract on blochain then executable should be equal to zero
+
+we have multiple mints in solana blockchain ehich contains many accounts, so any account on solana blockchain will have hasmap kind of struture key value
+key is public key which is related to account info which contains 1- lamports,2-xecutable,3-owner,4-data
+
+
+if never store data and executable feild empty then to we have give min amount of SOL as a rent to make an account 
+
+
+
+solana blockchain in bunch of programs
+by default all system program is owned by system program
+and system program does several opration such as new account creation
+spcae allocation byte capacity of data of account and assign program ownership
+
+
+BPF -Loder program - every program has it's owner even system program has it;s owner it is designeated as owner of all other program than native program in blockchain
+
+
+
+authorites vs owner in solana
+
+authorites are which has right to perofrom certain action on a program 
+like mint authorites - only mint authorites can mint token 
+freez authorites -  only this can freez token
+upgrade authorites - who can upgrade program program here are mutable eth is immutable
+
+where as owner can change the deduct lamport or modify it's however anyone can add lamports
+authorites are something else which few feilds which stored in data
+whenever we call a mint authorites it calls a function in token program it's created as it's owner to 
